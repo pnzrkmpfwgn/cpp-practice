@@ -1,0 +1,2 @@
+# Practice for C++
+This repo is for practicing very simple aspects of C++, or to remind the C++ language as a whole because sometimes it's hard to remember everything we certainly do want to look at a ready document to refer to.
