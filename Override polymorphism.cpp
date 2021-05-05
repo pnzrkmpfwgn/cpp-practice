@@ -14,7 +14,7 @@ class Pig : public Animal {
   public:
     void animalSound() {
     cout << "The pig says: wee wee \n" ;
-  }
+   }
 };
 
 // Derived class
@@ -25,8 +25,13 @@ class Dog : public Animal {
   }
 };
 
-int main(){
-	Dog obj;
-	
-	 obj.animalSound();
+int main() {
+  Animal myAnimal;
+  Pig myPig;
+  Dog myDog;
+
+  myAnimal.animalSound();
+  myPig.animalSound();
+  myDog.animalSound();
+  return 0;
 }
