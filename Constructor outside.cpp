@@ -7,12 +7,15 @@ class Car {        // The class
     string brand;  // Attribute
     string model;  // Attribute
     int year;      // Attribute
-    Car(string x, string y, int z) { // Constructor with parameters
-      brand = x;
-      model = y;
-      year = z;
-    }
+    Car(string x, string y, int z); // Constructor declaration
 };
+
+// Constructor definition outside the class
+Car::Car(string x, string y, int z) {
+  brand = x;
+  model = y;
+  year = z;
+}
 
 int main() {
   // Create Car objects and call the constructor with different values
@@ -24,4 +27,3 @@ int main() {
   cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
   return 0;
 }
-
